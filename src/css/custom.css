@@ -1,0 +1,64 @@
+:root {
+  --ifm-footer-padding-vertical: 10px;
+  --ifm-footer-padding-horizontal: 20px;
+}
+
+/* Dampen the burger icon */
+.navbar__toggle {
+  width: 20px;
+}
+
+/* Make first menu item stand out to serve as a title */
+.theme-doc-sidebar-menu > .menu__list-item:first-child {
+  font-weight: bolder;
+}
+.menu__list-item:first-child .menu__link--active {
+  color: var(--ifm-menu-color);
+}
+
+.sidebar-hr {
+  margin: 0;
+}
+/* Fix alignment issue with home icon */
+.breadcrumbs__item:first-child > .breadcrumbs__link {
+  padding: 0;
+}
+
+/* Basic styles */
+.markdown h1 {
+  --ifm-h1-font-size: 2rem;
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: 1.5rem;
+}
+
+.table-of-contents {
+  font-size: 0.9rem;
+}
+
+/* Footer styles */
+.footer__links {
+  margin-bottom: 0rem;
+  font-size: 0.8rem;
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .footer__links .footer__link-item {
+    display: inline-block !important;
+    width: auto !important;
+    margin-right: 1rem;
+  }
+
+  .footer__links .footer__link-item:first-child {
+    display: block !important;
+  }
+}
+
+/* Desktops */
+@media (min-width: 768px) {
+  main .container {
+    padding-left: 2rem !important;
+  }
+}
