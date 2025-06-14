@@ -1,6 +1,6 @@
 # Million Dreams
 
-This space is designed to help you discover others who care about the things you care about, and to be quietly recognised for how you show up — not how often or how loudly.
+Our platform is designed to help you discover others who care about the things you care about, and to be quietly recognised for how you show up — not how often or how loudly.
 
 We call this the Trust Network. It’s a lightweight system designed for high-signal, low-noise connection. Every channel, feature, and interaction has been carefully shaped to reduce noise, avoid performance, and create space for real human momentum.
 
