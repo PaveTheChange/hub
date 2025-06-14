@@ -40,7 +40,7 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/PaveTheChange/hub/tree/main/",
+          editUrl: "https://github.com/PaveTheChange/hub/tree/open-drafts/",
         },
         blog: {
           showReadingTime: true,
@@ -48,7 +48,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: "https://github.com/PaveTheChange/hub/tree/main/",
+          editUrl: "https://github.com/PaveTheChange/hub/tree/open-drafts/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
