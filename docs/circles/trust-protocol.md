@@ -1,5 +1,7 @@
 ---
 title: Trust Protocol Circle
+image: /img/seo/trust-protocol.jpg
+keywords: [community, social network, circle, trust, reputation, platform]
 ---
 
 The [🛡️-trust-protocol](https://discord.com/channels/1380551491269558402/1380889156758143056) is where we co-create the future of recognition and connection in this network.

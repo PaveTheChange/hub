@@ -1,5 +1,7 @@
 ---
 title: 44 Stories Circle
+image: /img/seo/44-stories.jpg
+keywords: [mental health, publishing, collaboration, initiative, venture]
 ---
 
 # 44 Stories Circle
