@@ -4,6 +4,9 @@
 # Production
 /build
 
+# Local development
+.env*
+
 # Generated files
 .docusaurus
 .cache-loader

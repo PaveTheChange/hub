@@ -1,10 +1,12 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
-import React from "react";
-import Link from "@docusaurus/Link";
+import dotenv from "dotenv";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+dotenv.config({ path: ".env.local" }); // by default, Docusaurus loads .env file in the root directory
+const DEPLOY_URL = process.env.DEPLOY_URL || "https://info.pavethechange.org";
 
 const config: Config = {
   title: "PaveTheChange.org",
@@ -16,7 +18,7 @@ const config: Config = {
     v4: true, // Improves compatibility with the upcoming Docusaurus v4
   },
 
-  url: "https://info.pavethechange.org",
+  url: DEPLOY_URL,
   baseUrl: "/",
 
   // GitHub pages deployment config.
@@ -38,7 +40,7 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/PaveTheChange/hub/tree/main/",
+          editUrl: "https://github.com/PaveTheChange/hub/tree/open-drafts/",
         },
         blog: {
           showReadingTime: true,
@@ -46,7 +48,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: "https://github.com/PaveTheChange/hub/tree/main/",
+          editUrl: "https://github.com/PaveTheChange/hub/tree/open-drafts/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
