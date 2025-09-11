@@ -2,6 +2,9 @@
 title: I Am Stuck
 ---
 
+> **⚠️ Deprecated Channel**  
+> This channel is now deprecated and no longer actively used. Please use other channels for support and assistance.
+
 The [🤯-i-am-stuck](https://discord.com/channels/1380551491269558402/1381524668682338405) space exists for when you hit a wall — technical, creative, strategic, or otherwise.
 
 It’s a simple mechanism to surface stuck points so others can help, without needing long context or formal asks.
